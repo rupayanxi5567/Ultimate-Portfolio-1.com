@@ -6,13 +6,8 @@ let headerClass = document.querySelector(".header");
 
 mobile_nav_btn.addEventListener("click", () => {
   headerClass.classList.toggle("active");
+});
 
-})
-
-
-
-
-// * Responsive Navbar Component Ends
 
 // ! Portfolio Tab Component
 
@@ -28,88 +23,88 @@ let section_footer = document.querySelector(".section_footer");
 let heroSection = document.querySelector(".sectionHero");
 let header = document.querySelector("header");
 let counterNumber = document.querySelectorAll(".counterNumber");
-let body = document.querySelector("body")
-let darkLink = document.getElementById("darkLink") // ! ======================= main mal ===========================================
-let main = document.querySelector("main")
-let heroHeadings = document.querySelectorAll(".heroHeadings")
-let heroPara = document.querySelectorAll(".heroPara")
-let section = document.querySelector("section")
-let navbarLink = document.querySelectorAll(".navbarLink")
-let navbarLists = document.querySelectorAll(".navbarLists")
-let sectionHeroImage = document.querySelector(".sectionHeroImage")
-let rupHeading = document.getElementById("rupHeading")
-let rupPara = document.getElementById("rupPara")
-let serviceHead = document.getElementById("serviceHead")
-let service_Para_dark_light = document.getElementById("service_Para_dark_light")
+let body = document.querySelector("body");
+let darkLink = document.getElementById("darkLink"); 
+let main = document.querySelector("main");
+let heroHeadings = document.querySelectorAll(".heroHeadings");
+let heroPara = document.querySelectorAll(".heroPara");
+let section = document.querySelector("section");
+let navbarLink = document.querySelectorAll(".navbarLink");
+let navbarLists = document.querySelectorAll(".navbarLists");
+let sectionHeroImage = document.querySelector(".sectionHeroImage");
+let rupHeading = document.getElementById("rupHeading");
+let rupPara = document.getElementById("rupPara");
+let serviceHead = document.getElementById("serviceHead");
+let service_Para_dark_light = document.getElementById(
+  "service_Para_dark_light"
+);
 // let dark_light_services = document.querySelector(".dark_light_services");
-let servHead1 = document.getElementById("servHead1")
-let servpara1 = document.getElementById("servpara1")
-let servHead2 = document.getElementById("servHead2")
-let servPara2 = document.getElementById("servPara2")
-let servHead3 = document.getElementById("servHead3")
-let servPara3 = document.getElementById("servPara3")
-let servHead4 = document.getElementById("servHead4")
-let servPara4 = document.getElementById("servPara4")
-let servHead5 = document.getElementById("servHead5")
-let servPara5 = document.getElementById("servPara5")
-let servHead6 = document.getElementById("servHead6")
-let servPara6 = document.getElementById("servPara6")
-let contactHead = document.getElementById("contactHead")
-let happy_client_head = document.getElementById("happy_client_head")
-let pandey_bg = document.getElementById("pandey_bg")
-let foty_bg = document.getElementById("foty_bg")
-let akshit_bg = document.getElementById("akshit_bg")
-let anuvab_bg = document.getElementById("anuvab_bg")
-let purnendu_bg = document.getElementById("purnendu_bg")
-let khan_bg = document.getElementById("khan_bg")
-let dipika_bg = document.getElementById("dipika_bg")
-let c_bg = document.getElementById("c_bg")
-let d_bg = document.getElementById("d_bg")
-let sec_biodata = document.getElementById("sec_biodata")
-let bio_data_head = document.getElementById("bio_data_head")
-let bio_data_para = document.getElementById("bio_data_para")
-let bio_data_para2 = document.getElementById("bio_data_para2")
-let design_head = document.getElementById("design_head")
-let design_para = document.getElementById("design_para")
-let h_c_head = document.getElementById("h_c_head")
-let h_c_para = document.getElementById("h_c_para")
-let js_head = document.getElementById("js_head")
-let js_para = document.getElementById("js_para")
-let react_head = document.getElementById("react_head")
-let react_para = document.getElementById("react_para")
-let tail_head = document.getElementById("tail_head")
-let tail_para = document.getElementById("tail_para")
-let pthonHead = document.getElementById("pthonHead")
-let pthonPara = document.getElementById("pthonPara")
-let bioProgressBar_l_d_1 = document.getElementById("bioProgressBar_l_d_1")
-let bioProgressBar_l_d_2 = document.getElementById("bioProgressBar_l_d_2")
-let bioProgressBar_l_d_3 = document.getElementById("bioProgressBar_l_d_3")
-let bioProgressBar_l_d_4 = document.getElementById("bioProgressBar_l_d_4")
-let bioProgressBar_l_d_5 = document.getElementById("bioProgressBar_l_d_5")
-let bioProgressBar_l_d_6 = document.getElementById("bioProgressBar_l_d_6")
-let port_section = document.getElementById("port_section")
-let port_sec_head = document.getElementById("port_sec_head")
-let port_sec_para = document.getElementById("port_sec_para")
-let d_l_header = document.getElementById("d_l_header")
-let nav_1 = document.getElementById("nav_1")
-let nav_2 = document.getElementById("nav_2")
-let nav_3 = document.getElementById("nav_3")
-let nav_4 = document.getElementById("nav_4")
-let nav_5 = document.getElementById("nav_5")
-let sec_hero_about = document.getElementById("sec_hero_about")
-
-
-
-
+let servHead1 = document.getElementById("servHead1");
+let servpara1 = document.getElementById("servpara1");
+let servHead2 = document.getElementById("servHead2");
+let servPara2 = document.getElementById("servPara2");
+let servHead3 = document.getElementById("servHead3");
+let servPara3 = document.getElementById("servPara3");
+let servHead4 = document.getElementById("servHead4");
+let servPara4 = document.getElementById("servPara4");
+let servHead5 = document.getElementById("servHead5");
+let servPara5 = document.getElementById("servPara5");
+let servHead6 = document.getElementById("servHead6");
+let servPara6 = document.getElementById("servPara6");
+let contactHead = document.getElementById("contactHead");
+let happy_client_head = document.getElementById("happy_client_head");
+let pandey_bg = document.getElementById("pandey_bg");
+let foty_bg = document.getElementById("foty_bg");
+let akshit_bg = document.getElementById("akshit_bg");
+let anuvab_bg = document.getElementById("anuvab_bg");
+let purnendu_bg = document.getElementById("purnendu_bg");
+let khan_bg = document.getElementById("khan_bg");
+let dipika_bg = document.getElementById("dipika_bg");
+let c_bg = document.getElementById("c_bg");
+let d_bg = document.getElementById("d_bg");
+let sec_biodata = document.getElementById("sec_biodata");
+let bio_data_head = document.getElementById("bio_data_head");
+let bio_data_para = document.getElementById("bio_data_para");
+let bio_data_para2 = document.getElementById("bio_data_para2");
+let design_head = document.getElementById("design_head");
+let design_para = document.getElementById("design_para");
+let h_c_head = document.getElementById("h_c_head");
+let h_c_para = document.getElementById("h_c_para");
+let js_head = document.getElementById("js_head");
+let js_para = document.getElementById("js_para");
+let react_head = document.getElementById("react_head");
+let react_para = document.getElementById("react_para");
+let tail_head = document.getElementById("tail_head");
+let tail_para = document.getElementById("tail_para");
+let pthonHead = document.getElementById("pthonHead");
+let pthonPara = document.getElementById("pthonPara");
+let bioProgressBar_l_d_1 = document.getElementById("bioProgressBar_l_d_1");
+let bioProgressBar_l_d_2 = document.getElementById("bioProgressBar_l_d_2");
+let bioProgressBar_l_d_3 = document.getElementById("bioProgressBar_l_d_3");
+let bioProgressBar_l_d_4 = document.getElementById("bioProgressBar_l_d_4");
+let bioProgressBar_l_d_5 = document.getElementById("bioProgressBar_l_d_5");
+let bioProgressBar_l_d_6 = document.getElementById("bioProgressBar_l_d_6");
+let port_section = document.getElementById("port_section");
+let port_sec_head = document.getElementById("port_sec_head");
+let port_sec_para = document.getElementById("port_sec_para");
+let d_l_header = document.getElementById("d_l_header");
+let nav_1 = document.getElementById("nav_1");
+let nav_2 = document.getElementById("nav_2");
+let nav_3 = document.getElementById("nav_3");
+let nav_4 = document.getElementById("nav_4");
+let nav_5 = document.getElementById("nav_5");
+let sec_hero_about = document.getElementById("sec_hero_about");
 
 darkLink.addEventListener("click", () => {
   let currentBackgroundColor = window.getComputedStyle(body).backgroundColor;
   // let sec_hero_about_bg = window.getComputedStyle(sec_hero_about).backgroundColor;
 
-
-  if (currentBackgroundColor === "rgb(33, 37, 0)" ||  currentBackgroundColor === "black" ) {
+  if (
+    currentBackgroundColor === "rgb(33, 37, 0)" ||
+    currentBackgroundColor === "black"
+  ) {
     body.style.backgroundColor = "white";
-    // sec_hero_about.style.backgroundColor = "white"; // !============================cgange
+    // sec_hero_about.style.backgroundColor = "white"; 
     darkLink.style.color = "rgb(33,37,0)";
     rupHeading.style.color = "black";
     rupPara.style.color = "black";
@@ -133,15 +128,15 @@ darkLink.addEventListener("click", () => {
     happy_client_head.style.color = "black";
     pandey_bg.style.backgroundColor = "grey";
     // pandey_bg.style.color = "white";
-    foty_bg.style.backgroundColor = "grey"; 
-    akshit_bg.style.backgroundColor = "grey"
-    anuvab_bg.style.backgroundColor = "grey"
-    purnendu_bg.style.backgroundColor = "grey"
-    khan_bg.style.backgroundColor = "grey"
-    dipika_bg.style.backgroundColor = "grey"
-    c_bg.style.backgroundColor = "white"
-    d_bg.style.backgroundColor = "white"
-    sec_biodata.style.backgroundColor = "white"
+    foty_bg.style.backgroundColor = "grey";
+    akshit_bg.style.backgroundColor = "grey";
+    anuvab_bg.style.backgroundColor = "grey";
+    purnendu_bg.style.backgroundColor = "grey";
+    khan_bg.style.backgroundColor = "grey";
+    dipika_bg.style.backgroundColor = "grey";
+    c_bg.style.backgroundColor = "white";
+    d_bg.style.backgroundColor = "white";
+    sec_biodata.style.backgroundColor = "white";
     bio_data_head.style.color = "black";
     bio_data_para.style.color = "black";
     bio_data_para2.style.color = "black";
@@ -172,16 +167,9 @@ darkLink.addEventListener("click", () => {
     nav_3.style.color = "black";
     nav_4.style.color = "black";
     nav_5.style.color = "black";
-  } 
-  
-  
-  
-  
-  
-  
-  else{
+  } else {
     body.style.backgroundColor = "rgb(33,37,0) ";
-    // sec_hero_about.style.backgroundColor = "rgb(33,37,41)"; // !========================================= change
+    // sec_hero_about.style.backgroundColor = "rgb(33,37,41)"; 
     darkLink.style.color = "white";
     rupHeading.style.color = " white ";
     rupPara.style.color = " white ";
@@ -205,15 +193,15 @@ darkLink.addEventListener("click", () => {
     happy_client_head.style.color = " white ";
     pandey_bg.style.backgroundColor = " white ";
     pandey_bg.style.color = " white ";
-    foty_bg.style.backgroundColor = " white "; 
-    akshit_bg.style.backgroundColor = " white "
-    anuvab_bg.style.backgroundColor = " white "
-    purnendu_bg.style.backgroundColor = " white "
-    khan_bg.style.backgroundColor = " white "
-    dipika_bg.style.backgroundColor = " white "
-    c_bg.style.backgroundColor = " white "
-    d_bg.style.backgroundColor = " white "
-    sec_biodata.style.backgroundColor = " rgb(33,37,0) "
+    foty_bg.style.backgroundColor = " white ";
+    akshit_bg.style.backgroundColor = " white ";
+    anuvab_bg.style.backgroundColor = " white ";
+    purnendu_bg.style.backgroundColor = " white ";
+    khan_bg.style.backgroundColor = " white ";
+    dipika_bg.style.backgroundColor = " white ";
+    c_bg.style.backgroundColor = " white ";
+    d_bg.style.backgroundColor = " white ";
+    sec_biodata.style.backgroundColor = " rgb(33,37,0) ";
     bio_data_head.style.color = " white ";
     bio_data_para.style.color = " white ";
     bio_data_para2.style.color = " white ";
@@ -244,38 +232,26 @@ darkLink.addEventListener("click", () => {
     nav_3.style.color = " white ";
     nav_4.style.color = " white ";
     nav_5.style.color = " white ";
-}
-
-
-
-
-
-
-
-
-
-})
-
-
-
-
+  }
+});
 
 pBtns.addEventListener("click", (e) => {
   let pBtnClicked = e.target;
 
   // || ! pBtnClicked.classList.contains("pBtnAll")
 
-if (  !pBtnClicked.classList.contains("pBtn") && !pBtnClicked.classList.contains("pBtnAll")) {
-  return;
-}
+  if (
+    !pBtnClicked.classList.contains("pBtn") &&
+    !pBtnClicked.classList.contains("pBtnAll")
+  ) {
+    return;
+  }
   pBtn.forEach((currButt) => {
     currButt.classList.remove("pBtnActive");
 
     pBtnClicked.classList.add("pBtnActive");
 
     let btnNum = pBtnClicked.dataset.btnNum;
-
-    // !console.log(btnNum)
 
     let imageActive = document.querySelectorAll(`.pBtn${btnNum}`);
 
@@ -311,7 +287,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-// * Testimonials one Ends
 
 // !scroll to top buton starts
 
@@ -329,52 +304,34 @@ scroll_element_Top.addEventListener(
     header.scrollIntoView({ behavior: "smooth" });
   }
 
-  // !scroll to top buton ends
 );
-
-
 
 // *animating the numbers starts
 
 let speed = 500;
 
-counterNumber.forEach( (countNum) => {
+counterNumber.forEach((countNum) => {
+  let updateNum = () => {
+    let targetNumber = parseInt(countNum.dataset.num);
+    // console.log(targetNumber);
+    let initialNum = parseInt(countNum.innerHTML);
+    // console.log(initialNum);
 
+    let increament = Math.trunc(targetNumber / speed);
+    // console.log(increament)
 
-let updateNum = () => {
-  let targetNumber = parseInt(countNum.dataset.num);
-  // console.log(targetNumber);
-  let initialNum = parseInt(countNum.innerHTML)
-  // console.log(initialNum);
+    if (targetNumber > initialNum) {
+      countNum.innerHTML = `${initialNum + increament}+`;
 
-  let increament = Math.trunc(targetNumber/speed)
-  // console.log(increament)
+      setTimeout(updateNum, 10);
+    }
+  };
 
-  if (targetNumber > initialNum) {
-
-    countNum.innerHTML = `${initialNum + increament}+`;
-
-    setTimeout( updateNum , 10);
-    
-  }
-
-
-}
-
-
-updateNum()
-
-} )
-
-
-// *animating the numbers ends
-
-
-
+  updateNum();
+});
 
 
 //  * media query of the slidebar starts
-
 
 let myJsSlide = (widthOfSlide) => {
   if (widthOfSlide.matches) {
@@ -406,15 +363,30 @@ let myJsSlide = (widthOfSlide) => {
       },
     });
   }
-}
+};
 
+let widthOfSlide = window.matchMedia("(max-width: 650px)");
 
+myJsSlide(widthOfSlide);
 
-let widthOfSlide = window.matchMedia("(max-width: 650px)")
-
-myJsSlide(widthOfSlide)
-
-widthOfSlide.addEventListener("change", myJsSlide )
-
+widthOfSlide.addEventListener("change", myJsSlide);
 
 //  * media query of the slidebar ends
+
+// ! =================================== smooth scrolling ============================================== 
+
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("portfolioLink")
+    .addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default behavior of the link
+      // const targetElement = document.getElementById("port_section");
+      let port_section = document.getElementById("port_section");
+
+      // Scroll to the target element smoothly
+      port_section.scrollIntoView({
+        behavior: "smooth",
+        block: "start", // You can use "end" or "center" if needed
+      });
+    });
+});
